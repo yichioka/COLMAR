@@ -66,13 +66,9 @@ ul li{
   padding: 2rem 3rem;
 }
 
-.image-container {
-  display: flex;
-  flex-basis: 60%;
-}
 
 .image-container img{
-
+ width: 60%;
 
 }
 
@@ -114,13 +110,9 @@ ul li{
   padding: 2rem 3rem;
 }
 
-.information {
-  display: flex;
-  flex-basis: 60%;
-}
 
 .headline img{
-
+  width: 60%;
 
 }
 
