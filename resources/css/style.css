@@ -12,7 +12,6 @@ body {
 
 
 p {
-
   font-size: 1rem;
 }
 
@@ -55,6 +54,17 @@ ul li{
 }
 
 
+/* Main Content Universal */
+
+#banner-contents {
+  
+  flex-basis: 60%;
+}
+
+#side-contents {
+  display: flex;
+  flex-basis: 40%;
+}
 /* Sign Up Section */
 
 #sign-up-section {
@@ -62,31 +72,31 @@ ul li{
   flex-direction: row;
   width: 100%;
   background-color: #f3f3f3;
-  width: cover;
+  width: 100%;
   padding: 2rem 3rem;
+  margin-top: 3rem;
 }
 
 
-.image-container img{
- width: 60%;
-
-}
 
 /* -- Sign Up Section side-- */
 
-.banner-contents {
+#signup-side {
   display: flex;
   flex-direction: column;
+  margin-left: 2rem;
+  padding-right: 3rem;
+
 }
 
-.text-content h2{
+.side-content h2{
   margin: 2rem 0;
   color: #4a4a4a;
   font-size: 3rem;
   font-weight: bold;
 }
 
-.text-content p{
+.side-content p{
   margin: 2rem 0;
   color: #4a4a4a;
   font-size: 1.5rem;
@@ -111,10 +121,8 @@ ul li{
 }
 
 
-.headline img{
-  width: 60%;
 
-}
+
 
 .headline h3 {
   font-weight: bold;
