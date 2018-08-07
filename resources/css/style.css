@@ -76,6 +76,7 @@ ul li{
   display: flex;
   flex-direction: row;
   background-color: #f3f3f3;
+  width: 100%;
 }
 
 /* -- SignUpside-- */
@@ -126,7 +127,6 @@ ul li{
 
 .headline h3 {
   font-weight: bold;
-  margin-top: 2rem;
   font-size: 2rem;
 }
 
@@ -150,7 +150,7 @@ ul li{
 #infomation-side {
   width: 40%;
   padding-top: 1rem;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .info {
@@ -165,10 +165,6 @@ ul li{
   height: auto;
 }
 
-.info-image img{
-
-
-}
 
 .info .text-container {
   display: flex;
@@ -176,7 +172,7 @@ ul li{
 
 }
 
-.guest {
+.guest ,.fisma{
   background-color: #f3f3f3;
 }
 
@@ -207,7 +203,7 @@ ul li{
 }
 
 
-.courses h3{
+#start-learning .headline h3{
   color: #4a4a4a;
   font-size: 2.4rem;
   font-weight: bold;
@@ -227,8 +223,6 @@ ul li{
   width: 20rem;
   margin: .8rem;
 }
-
-
 
 
 .image-container img {
@@ -252,4 +246,78 @@ ul li{
   margin: 1.2rem 0;
 }
 
+/*  Thesis */
+
+#thesis-section {
+  width: 100%;
+}
+
+#thesis-section .headline h3{
+  color: #4a4a4a;
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+/*  Thesis Video*/
+
+#thesis{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+}
+
+#video {
+  width: 60%;
+  margin: 2rem 3rem;
+}
+
+
+/*  Thesis side*/
+
+
+#thesis-side {
+  width: 40%;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+
+
+.thesis-box {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.thesis-image {
+  display: flex;
+  max-width: 35%;
+  height: auto;
+}
+
+
+.thesis-side .text-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
 /* Footer */
+ footer {
+   padding: 1rem 1.5rem;
+   display: flex;
+   font-size: .7rem;
+   border-top: .1rem dotted;
+
+ }
+
+.copyright {
+  display: flex;
+  flex: 1;
+}
