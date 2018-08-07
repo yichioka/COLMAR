@@ -298,11 +298,15 @@ ul li{
 
 .thesis-image {
   display: flex;
-  max-width: 35%;
   height: auto;
+  max-width: 35%;
 }
 
 
+
+.thesis-image img {
+  width: 100%;
+}
 
 .thesis-side .text-container {
   display: flex;
