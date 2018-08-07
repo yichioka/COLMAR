@@ -297,11 +297,9 @@ ul li{
 }
 
 .thesis-image {
-  display: flex;
   height: auto;
   max-width: 35%;
 }
-
 
 
 .thesis-image img {
