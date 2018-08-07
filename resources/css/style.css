@@ -6,15 +6,20 @@ html {
 }
 
 body {
-  width: cover;
+  width: 100%;
   margin: 0 auto;
 }
 
-
 p {
-  font-size: 1rem;
+  font-size: .9rem;
 }
 
+
+.main-content {
+  position: relative;
+  top: 3rem; /* To offset for fixed header. */
+
+}
 
 /* Header */
 
@@ -56,60 +61,59 @@ ul li{
 
 /* Main Content Universal */
 
-#banner-contents {
-  
-  flex-basis: 60%;
+#section-side {
+  width: 40%;
 }
 
-#side-contents {
-  display: flex;
-  flex-basis: 40%;
+#banner-content {
+  width: 60%;
+  margin: 2rem 3rem;
 }
-/* Sign Up Section */
+
+/* Sign Up  */
 
 #sign-up-section {
   display: flex;
   flex-direction: row;
-  width: 100%;
   background-color: #f3f3f3;
-  width: 100%;
-  padding: 2rem 3rem;
-  margin-top: 3rem;
 }
 
+/* -- SignUpside-- */
 
-
-/* -- Sign Up Section side-- */
 
 #signup-side {
+  width: 40%;
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
-  margin-left: 2rem;
-  padding-right: 3rem;
-
+  justify-content: center;
+  margin-right: 2rem;
 }
 
+
 .side-content h2{
-  margin: 2rem 0;
   color: #4a4a4a;
   font-size: 3rem;
   font-weight: bold;
 }
 
-.side-content p{
-  margin: 2rem 0;
+.side-content h4 {
   color: #4a4a4a;
   font-size: 1.5rem;
+  margin: 1.5rem 0;
 }
 
 .button {
-  display: block;
+  display: inline-block;
   text-align: center;
   color: white;
   background-color: #4a4a4a;
   padding: .5rem 0;
   margin: 1rem 0;
+  width: 90%;
+
 }
+
 
 /* information */
 
@@ -117,12 +121,8 @@ ul li{
   display: flex;
   flex-direction: row;
   background-color: white;
-  padding: 2rem 3rem;
+  width: 100%;
 }
-
-
-
-
 
 .headline h3 {
   font-weight: bold;
@@ -145,27 +145,62 @@ ul li{
 
 
 
-/*info*/
+/*info-side*/
+
+#infomation-side {
+  width: 40%;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
 
 .info {
   display: flex;
   flex-direction: row;
-  padding: 32px 24px;
+  padding: 1rem;
+}
+
+.info-image {
+  display: flex;
+  max-width: 35%;
+  height: auto;
 }
 
 .info-image img{
-  height: auto;
+
+
 }
 
 .info .text-container {
   display: flex;
   flex-direction: column;
+
 }
+
+.guest {
+  background-color: #f3f3f3;
+}
+
+.sidetext-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.sidetext-container h4 {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.sidetext-container p {
+  font-size: .9rem;
+  margin: .65rem auto;
+}
+
 
 /* Start Learning */
 
 #start-learning {
-  padding: 2rem 4rem;
   background-color: #f3f3f3;
   width: 100%;
 }
@@ -187,8 +222,8 @@ ul li{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 1000px;
-  margin: 0 auto;
+  width: 100%;
+  ;
 
 }
 
