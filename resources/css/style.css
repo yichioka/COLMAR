@@ -160,11 +160,13 @@ ul li{
 }
 
 .info-image {
-  display: flex;
   max-width: 35%;
   height: auto;
 }
 
+.info-image img {
+  width: 100%;
+}
 
 .info .text-container {
   display: flex;
