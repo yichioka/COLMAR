@@ -272,18 +272,18 @@ ul li{
 
 
 #video {
-  width: 60%;
+  max-width: 60%;
   margin: 0 3rem;
 }
 
-.video .text-container h3 {
+.video h3 {
   font-weight: bold;
   font-size: 1.2rem;
   line-height: 1.6rem;
   margin-top: 1.35rem;
 }
 
-.video .text-container p {
+.video p {
   margin-top: .7rem;
   margin-bottom: 2rem;
 }
