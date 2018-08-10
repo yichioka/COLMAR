@@ -153,18 +153,11 @@ header .mobile {
   #sign-up-section {
     display: flex;
     flex-direction: column;
-    padding-right: 1rem;
-
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
   }
-
-  #banner-content img{
-    max-width: 450px;
-  }
-
-  #signup-side {
-    padding-right: 1rem;
-  }
-
 
   .side-content h2{
     color: #4a4a4a;
