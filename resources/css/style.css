@@ -384,7 +384,10 @@ header .mobile {
   margin: 1.2rem 0;
 }
 
+#mobile-learning {
+  display: none;
 
+}
 
 
 @media only screen and (max-width: 450px) {
@@ -397,10 +400,10 @@ header .mobile {
     font-size: 2.4rem;
     font-weight: bold;
     text-align: center;
-    margin-top: 2rem;
+    margin: 2rem 0;
   }
 
-  #mobile-starting {
+  #mobile-learning {
     display: flex;
     flex-direction: column;
     margin: 1rem;
