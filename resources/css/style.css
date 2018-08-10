@@ -109,6 +109,23 @@ header .mobile {
   margin: 2rem 3rem;
 }
 
+
+.side-textcontainer {
+  padding: 1rem;
+  margin: .5rem;
+}
+
+.side-textcontainer h4 {
+  font-size: 1.3rem;
+  color: #4a4a4a;
+}
+
+.side-textcontainer p {
+  margin: .6rem 0;
+  font-size: .8rem;
+  color: #4a4a4a;
+}
+
 /* Sign Up  */
 
 #sign-up-section {
@@ -201,11 +218,14 @@ header .mobile {
 .headline h3 {
   font-weight: bold;
   font-size: 2rem;
+  color: #4a4a4a;
+  margin-top: 1rem;
 }
 
 .headline p {
   margin-top: 1.5rem;
   font-size: 0.9rem;
+  color: #4a4a4a;
 }
 
 .Emanuel {
@@ -214,6 +234,7 @@ header .mobile {
 
 .Emanuel span {
   font-size: .75rem;
+  color: #4a4a4a;
 }
 
 @media only screen and (max-width: 450px) {
@@ -226,7 +247,6 @@ header .mobile {
 
 #infomation-side {
   width: 40%;
-  padding-top: 1rem;
   padding-bottom: 2rem;
 }
 
@@ -255,22 +275,9 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-.sidetext-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 
-}
 
-.sidetext-container h4 {
-  font-weight: bold;
-  font-size: 1.1rem;
-}
 
-.sidetext-container p {
-  font-size: .9rem;
-  margin: .65rem auto;
-}
 
 
 /* Start Learning */
@@ -316,7 +323,7 @@ header .mobile {
 
 .course-textcontent h4 {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 
@@ -348,23 +355,15 @@ header .mobile {
 }
 
 /*  Thesis Video*/
-
-
-
-.texts h3 {
-  font-weight: bold;
-  font-size: 1.2rem;
-  line-height: 1.6rem;
-  margin-top: 1.35rem;
+.description h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
 }
 
-.texts p {
-  margin-top: .7rem;
-  margin-bottom: 2rem;
-}
+
 
 @media only screen and (max-width: 450px) {
-  .texts {
+  .side-textcontainer {
     display: none;
   }
 }
@@ -399,7 +398,7 @@ header .mobile {
   width: 100%;
 }
 
-.thesis .sidetext-container {
+.sidetext-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
