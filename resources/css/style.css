@@ -320,16 +320,7 @@ ul li{
 .thesis .sidetext-container {
   display: flex;
   flex-direction: column;
-  margin-left: 1rem;
-}
-
-.thesis h4 {
-  margin-left: 1rem;
-}
-
-
-.thesis p{
-  margin-left: 1rem;
+  
 }
 
 /* Footer */
