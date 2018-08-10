@@ -128,17 +128,13 @@ header .mobile {
 }
 
 
-
-
 /* -- SignUpside-- */
-
 
 #signup-side {
   width: 40%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-
 }
 
 
@@ -166,25 +162,39 @@ header .mobile {
 
 
 @media only screen and (max-width: 450px) {
-  #sign-up-section {
-    display: flex;
-    flex-direction: column;
+  #banner-content {
     width: 100%;
-    justify-content: center;
-    align-items: center;
     margin: 0;
   }
+
+  #sign-up-section {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #signup-side {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
 
   .side-content h2{
     color: #4a4a4a;
     font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 2rem;
   }
 
   .side-content h4 {
     color: #4a4a4a;
-    font-size: 1.2rem;
-    margin: 1.5rem 0;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    margin-bottom: 1.5rem;
   }
 
   .button {
@@ -236,7 +246,7 @@ header .mobile {
 
 /*info-side*/
 
-#infosection-side {
+#information-side {
   width: 40%;
   display: flex;
   align-items: flex-start;
@@ -278,15 +288,8 @@ header .mobile {
   font-size: .9rem;
 }
 
-@media only screen and (max-width: 450px) {
-  #information {
-    display: none;
-  }
 
-  .contents {
 
-  }
-}
 
 
 /* Start Learning */
