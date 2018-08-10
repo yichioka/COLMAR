@@ -289,8 +289,38 @@ header .mobile {
 }
 
 
+#information-mobileside {
+  display: none;
+}
 
+@media only screen and (max-width: 450px) {
+  #information-section {
+    display: none;
+  }
 
+  #information-mobileside {
+    display: flex;
+    padding: 1rem;
+  }
+
+  .mobile-contents {
+    width: 100%;
+  
+  }
+
+  .mobile-image {
+
+  }
+
+  .info-image img {
+
+  }
+
+  .mobile-textcontainer {
+    margin: 1rem;
+  }
+
+}
 
 /* Start Learning */
 
