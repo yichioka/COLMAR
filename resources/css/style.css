@@ -268,17 +268,16 @@ header .mobile {
 .text-container {
   display: flex;
   flex-direction: column;
-
 }
 
 .guest {
   background-color: #f3f3f3;
 }
 
-
-
-
-
+.link span {
+  color: blue;
+  font-size: .9rem;
+}
 
 /* Start Learning */
 
@@ -356,11 +355,14 @@ header .mobile {
 
 /*  Thesis Video*/
 .description h3 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin: 1rem 0;
+  color: #4a4a4a;
 }
 
-
+.description p {
+  color: #4a4a4a;
+}
 
 @media only screen and (max-width: 450px) {
   .side-textcontainer {
