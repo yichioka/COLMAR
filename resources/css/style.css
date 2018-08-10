@@ -168,7 +168,7 @@ ul li{
   width: 100%;
 }
 
-.info .text-container {
+.text-container {
   display: flex;
   flex-direction: column;
 
@@ -265,7 +265,7 @@ ul li{
   display: flex;
   flex-direction: row;
   background-color: white;
-  width: 100%;
+  margin-top: 2rem;
 }
 
 /*  Thesis Video*/
@@ -273,10 +273,20 @@ ul li{
 
 #video {
   width: 60%;
-  margin: 2rem 3rem;
+  margin: 0 3rem;
 }
 
+.video h3 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  margin-top: 1.35rem;
+}
 
+.video p {
+  margin-top: .7rem;
+  margin-bottom: 2rem;
+}
 /*  Thesis side*/
 
 .fisma {
@@ -286,34 +296,41 @@ ul li{
 
 #thesis-side {
   width: 40%;
-  padding-top: 1rem;
   padding-bottom: 2rem;
 }
 
 
-#thesis-side .thesis-box {
+.thesis-container {
   display: flex;
   flex-direction: row;
   padding: 1rem;
 }
 
+
 .thesis-image {
   height: auto;
   max-width: 35%;
-}
 
+}
 
 .thesis-image img {
   width: 100%;
 }
 
-.thesis-side .text-container {
+.thesis .sidetext-container {
   display: flex;
   flex-direction: column;
+  margin-left: 1rem;
+}
 
+.thesis h4 {
+  margin-left: 1rem;
 }
 
 
+.thesis p{
+  margin-left: 1rem;
+}
 
 /* Footer */
  footer {
