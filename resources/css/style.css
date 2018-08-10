@@ -198,6 +198,16 @@ header .mobile {
   flex-direction: row;
   background-color: white;
   width: 100%;
+  padding: 2rem 3rem;
+}
+
+.information .image-container {
+  max-width: 60%;
+  height: auto;
+}
+
+.information .image-container img{
+  width: 100%;
 }
 
 .headline h3 {
