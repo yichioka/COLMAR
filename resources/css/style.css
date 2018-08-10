@@ -97,6 +97,11 @@ header .mobile {
 
 #section-side {
   width: 40%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 2rem;
 }
 
 #banner-content {
@@ -110,14 +115,13 @@ header .mobile {
   display: flex;
   flex-direction: row;
   background-color: #f3f3f3;
-  width: 100%;
+
 }
 
 /* -- SignUpside-- */
 
 
 #signup-side {
-  width: 40%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -191,17 +195,8 @@ header .mobile {
   flex-direction: row;
   background-color: white;
   width: 100%;
-  padding: 2rem 3rem;
 }
 
-.information .image-container {
-  max-width: 60%;
-  height: auto;
-}
-
-.information .image-container img{
-  width: 100%;
-}
 
 .headline h3 {
   font-weight: bold;
@@ -337,9 +332,6 @@ header .mobile {
 }
 /*  Thesis */
 
-#thesis-section {
-  width: 100%;
-}
 
 #thesis-section .headline h3{
   color: #4a4a4a;
@@ -349,10 +341,9 @@ header .mobile {
   margin-top: 2rem;
 }
 
-#thesis{
+#video{
   display: flex;
   flex-direction: row;
-  background-color: white;
   margin-top: 2rem;
 }
 
