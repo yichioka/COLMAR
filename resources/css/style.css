@@ -276,14 +276,14 @@ ul li{
   margin: 0 3rem;
 }
 
-.video h3 {
+.video .texts h3 {
   font-weight: bold;
   font-size: 1.2rem;
   line-height: 1.6rem;
   margin-top: 1.35rem;
 }
 
-.video p {
+.video .texts p {
   margin-top: .7rem;
   margin-bottom: 2rem;
 }
